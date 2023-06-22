@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Form data</legend>
+                <label>Name</label>
+                <br>
+                <input type="text" placeholder="Enter Your name" id="Firstname">
+                <br>
+                <br>
+
+                <label>Father Name</label>
+                <br>
+                <input type="text" placeholder="Enter Your Fathername" id="Fathername">
+                <br>
+                <br>
+
+                
+                <label>Student Id</label>
+                <br>
+                <input type="text" placeholder="Enter Your Student id" id="Student id">
+                <br>
+                <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Subjects</legend>
+
+        <label>Math</label>
+        <br>
+        <input type="text" placeholder="Enter Your Math marks" id="mathmarks">
+        <br>
+        <br>
+
+        <label>Physics</label>
+        <br>
+        <input type="text" placeholder="Enter Your Physics marks" id="Physicsmarks">
+        <br>
+        <br>
+
+        <label>English</label>
+        <br>
+        <input type="text" placeholder="Enter Your English marks" id="Englishmarks">
+        <br>
+        <br>
+
+        <button onclick="getresult()">Submit</button>
+
+    </fieldset>
+    </form>
+    <h1 id="name1"></h1>
+    <table border="2" id="table1" style="display: none;">
+        
+        <tr>
+            <th>Math</th>
+            <th>English</th>
+            <th>Physics</th>
+        </tr>
+
+        <tr>
+            <td id="math"></td>
+            <td id="english"></td>
+            <td id="physics"></td>
+        </tr>
+    </table>
+    <h1 id="per"></h1>
+    <script src="app.js"></script>
+</body>
+</html>
